@@ -1,4 +1,10 @@
 Omblog::Application.routes.draw do
+  resources :comments
+
+  resources :users
+
+  resources :blogs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
